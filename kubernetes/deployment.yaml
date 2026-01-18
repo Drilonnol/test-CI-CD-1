@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: ghcr.io/drilonnol/test-ci-cd-1:sha-3eba5c94bdba53862e8743eac2d15e6cf0c27fc3
+        image: ghcr.io/drilonnol/test-ci-cd-1:sha-226a04c02e6478d9ae41a057896845d8b9928b3c
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
